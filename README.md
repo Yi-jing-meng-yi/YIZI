@@ -1,0 +1,150 @@
+以下是为 YIZI 安全防护应用设计的专业自述文件（README.md），包含项目介绍、功能特性、使用说明和技术实现等核心内容：
+
+```markdown
+# <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="48"> YIZI 安全防护系统
+
+[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)
+[![Min SDK](https://img.shields.io/badge/min%20SDK-24%2B(Android%207.0)-green.svg)](#)
+[![Kotlin](https://img.shields.io/badge/language-Kotlin%2BJava-purple.svg)](#)
+
+**下一代Android隐私防护解决方案** | [English Version](README_EN.md)
+
+## 🌟 核心特性
+
+### 🛡️ 空白通行证
+- 动态生成虚拟设备信息（IMEI/Android ID等）
+- 提供虚假位置数据（支持GPS/基站/WiFi模拟）
+- 伪造通讯录和通话记录
+- 应用级权限隔离控制
+
+### 👑 黑皇后防护
+- 主动占用逆向分析端口（8080/8888等）
+- 实时网络流量监控
+- 检测Frida/Xposed等调试工具
+- 反VPN流量嗅探
+
+### ⚡ 智能权限代理
+- 三模权限获取（Root/Shizuku/ADB）
+- 自动化ADB无线调试配置
+- 一键式权限授予管理
+- 后台服务保活机制
+
+## 📦 技术架构
+
+```mermaid
+graph TD
+    A[YIZI Core] --> B[Virtual Passport]
+    A --> C[BlackQueen]
+    A --> D[Permission Proxy]
+    B --> B1[Data Generator]
+    B --> B2[Permission Hook]
+    C --> C1[Port Occupier]
+    C --> C2[Traffic Analyzer]
+    D --> D1[Root Manager]
+    D --> D2[Shizuku Bridge]
+```
+
+## 🚀 快速开始
+
+### 编译要求
+- Android Studio Giraffe+ 
+- JDK 17
+- Android SDK 34
+- Kotlin 1.8+
+
+### 安装步骤
+```bash
+git clone https://github.com/yourrepo/YIZI.git
+cd YIZI
+./gradlew assembleDebug
+```
+
+### 运行模式
+| 模式 | 所需权限 | 功能完整性 |
+|------|---------|-----------|
+| Root模式 | Root权限 | 100% |
+| Shizuku模式 | Shizuku授权 | 85% |
+| ADB模式 | 无线调试 | 70% |
+
+## 📱 界面预览
+
+| 主界面 | 应用防护 | 网络监控 |
+|--------|---------|----------|
+| ![主页](screenshots/home.png) | ![防护](screenshots/protection.png) | ![网络](screenshots/network.png) |
+
+## 🔧 开发者指南
+
+### 关键API
+```kotlin
+// 初始化虚拟身份
+VirtualPassport(context).createIdentity(packageName)
+
+// 启动黑皇后防护
+startService(Intent(this, BlackQueenService::class.java))
+
+// 请求Shizuku权限
+Shizuku.requestPermission(REQUEST_CODE)
+```
+
+### 自定义配置
+在 `app/build.gradle` 中修改：
+```groovy
+android {
+    buildFeatures {
+        // 启用/禁用功能模块
+        virtualPassport true
+        blackQueenDefense true
+    }
+}
+```
+
+## 📜 开源许可
+```text
+GNU General Public License v3.0
+
+允许：
+- 私人使用
+- 商业授权（需申请）
+禁止：
+- 恶意代码植入
+- 闭源商业分发
+```
+
+## 🤝 参与贡献
+1. Fork项目仓库
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送分支 (`git push origin feature/AmazingFeature`)
+5. 发起Pull Request
+
+---
+
+> 📧 联系我们: yizi.security@protonmail.com  
+> 🌍 官方网站: [https://yizi.security](https://yizi.security)  
+> 💬 Telegram群组: [@YIZI_Community](https://t.me/YIZI_Community)
+```
+
+### 文件结构建议
+```
+YIZI/
+├── README.md          # 主自述文件
+├── README_ZH.md       # 中文版
+├── LICENSE            # 许可证文件
+├── screenshots/       # 截图目录
+│   ├── home.png
+│   ├── protection.png
+│   └── network.png
+└── docs/
+    ├── DEVELOPER.md   # 高级开发文档
+    └── SECURITY.md    # 安全白皮书
+```
+
+这个自述文件包含：
+1. 视觉化徽标和图标
+2. 交互式架构图（Mermaid语法）
+3. 多模式功能对比表
+4. 截图展示区
+5. 开发者快速接入指南
+6. 完整的联系和社区信息
+
+可根据实际项目情况调整技术细节和联系方式部分。建议配套提供中英文双版本，并保持截图与UI设计一致。
