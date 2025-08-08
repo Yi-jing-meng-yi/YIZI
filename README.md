@@ -1,6 +1,6 @@
 以下是为 YIZI 安全防护应用设计的专业自述文件（README.md），包含项目介绍、功能特性、使用说明和技术实现等核心内容：
 
-```markdown
+
 # <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="48"> YIZI 安全防护系统
 
 [![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)
@@ -31,7 +31,7 @@
 
 ## 📦 技术架构
 
-```mermaid
+```
 graph TD
     A[YIZI Core] --> B[Virtual Passport]
     A --> C[BlackQueen]
