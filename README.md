@@ -6,27 +6,27 @@
 
 **下一代Android隐私防护解决方案** | [English Version](README_EN.md)
 
-## 🌟 核心特性
+## 核心特性
 
-### 🛡️ 空白通行证
+### 空白通行证
 - 动态生成虚拟设备信息（IMEI/Android ID等）
 - 提供虚假位置数据（支持GPS/基站/WiFi模拟）
 - 伪造通讯录和通话记录
 - 应用级权限隔离控制
 
-### 👑 黑皇后防护
+### 黑皇后防护
 - 主动占用逆向分析端口（8080/8888等）
 - 实时网络流量监控
 - 检测Frida/Xposed等调试工具
 - 反VPN流量嗅探
 
-### ⚡ 智能权限代理
+### 智能权限代理
 - 三模权限获取（Root/Shizuku/ADB）
 - 自动化ADB无线调试配置
 - 一键式权限授予管理
 - 后台服务保活机制
 
-## 📦 技术架构
+## 技术架构
 
 ```
 graph TD
@@ -41,7 +41,7 @@ graph TD
     D --> D2[Shizuku Bridge]
 ```
 
-## 🚀 快速开始
+## 快速开始
 
 ### 编译要求
 - Android Studio Giraffe+ 
@@ -63,13 +63,13 @@ cd YIZI
 | Shizuku模式 | Shizuku授权 | 85% |
 | ADB模式 | 无线调试 | 70% |
 
-## 📱 界面预览
+## 界面预览
 
 | 主界面 | 应用防护 | 网络监控 |
 |--------|---------|----------|
 | ![主页](screenshots/home.png) | ![防护](screenshots/protection.png) | ![网络](scr) |
 
-## 🔧 开发者指南
+##  开发者指南
 
 ### 关键API
 ```kotlin
@@ -95,7 +95,7 @@ android {
 }
 ```
 
-## 📜 开源许可
+##  开源许可
 ```text
 GNU General Public License v3.0
 
@@ -107,13 +107,11 @@ GNU General Public License v3.0
 - 闭源商业分发
 ```
 
-## 🤝 参与贡献
+##  参与贡献
 暂无
 ---
 
-> 📧 联系我们: xyhqqpyp@outlook.com
-> 🌍 官方网站: 暂无
-> 💬 Telegram群组: 暂无
+>  联系我们: xyhqqpyp@outlook.com
 
 
 ### 目前YIZI的状态
