@@ -1,6 +1,3 @@
-以下是为 YIZI 安全防护应用设计的专业自述文件（README.md），包含项目介绍、功能特性、使用说明和技术实现等核心内容：
-
-
 # <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="48"> YIZI 安全防护系统
 
 [![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)
@@ -70,7 +67,7 @@ cd YIZI
 
 | 主界面 | 应用防护 | 网络监控 |
 |--------|---------|----------|
-| ![主页](screenshots/home.png) | ![防护](screenshots/protection.png) | ![网络](screenshots/network.png) |
+| ![主页](screenshots/home.png) | ![防护](screenshots/protection.png) | ![网络](scr) |
 
 ## 🔧 开发者指南
 
@@ -111,40 +108,13 @@ GNU General Public License v3.0
 ```
 
 ## 🤝 参与贡献
-1. Fork项目仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送分支 (`git push origin feature/AmazingFeature`)
-5. 发起Pull Request
-
+暂无
 ---
 
-> 📧 联系我们: yizi.security@protonmail.com  
-> 🌍 官方网站: [https://yizi.security](https://yizi.security)  
-> 💬 Telegram群组: [@YIZI_Community](https://t.me/YIZI_Community)
-```
+> 📧 联系我们: xyhqqpyp@outlook.com
+> 🌍 官方网站: 暂无
+> 💬 Telegram群组: 暂无
 
-### 文件结构建议
-```
-YIZI/
-├── README.md          # 主自述文件
-├── README_ZH.md       # 中文版
-├── LICENSE            # 许可证文件
-├── screenshots/       # 截图目录
-│   ├── home.png
-│   ├── protection.png
-│   └── network.png
-└── docs/
-    ├── DEVELOPER.md   # 高级开发文档
-    └── SECURITY.md    # 安全白皮书
-```
 
-这个自述文件包含：
-1. 视觉化徽标和图标
-2. 交互式架构图（Mermaid语法）
-3. 多模式功能对比表
-4. 截图展示区
-5. 开发者快速接入指南
-6. 完整的联系和社区信息
-
-可根据实际项目情况调整技术细节和联系方式部分。建议配套提供中英文双版本，并保持截图与UI设计一致。
+### 目前YIZI的状态
+正在开发中
