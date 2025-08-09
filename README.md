@@ -46,7 +46,7 @@ graph TD
 ### 编译要求
 - Android Studio Giraffe+ 
 - JDK 17
-- Android SDK 34
+- Android SDK 24
 - Kotlin 1.8+
 
 ### 安装步骤
@@ -130,6 +130,9 @@ GNU General Public License v3.0
 - 电脑YIZI反向病毒防范
 - 黑皇后改进
 - 防止合法应用误检查
+
+## 我想要加入，可以吗
+>  技术交流群(QQ):1043544284 
 
 
 
