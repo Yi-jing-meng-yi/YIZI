@@ -54,7 +54,7 @@ graph TD
 
 ### 安装步骤
 ```bash
-git clone https://github.com/yourrepo/YIZI.git
+git clone https://github.com/Yi-jing-meng-yi/YIZI.git
 cd YIZI
 ./gradlew assembleDebug
 ```
