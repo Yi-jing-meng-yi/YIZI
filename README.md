@@ -47,14 +47,6 @@ graph TD
 - Android Studio Giraffe+ 
 - JDK 17
 - Android SDK 24
-- Kotlin 1.8+
-
-### 安装步骤
-```bash
-git clone https://github.com/Yi-jing-meng-yi/YIZI.git
-cd YIZI
-./gradlew assembleDebug
-```
 
 ### 运行模式
 | 模式 | 所需权限 | 功能完整性 |
@@ -62,38 +54,6 @@ cd YIZI
 | Root模式 | Root权限 | 100% |
 | Shizuku模式 | Shizuku授权 | 85% |
 | ADB模式 | 无线调试 | 70% |
-
-## 界面预览
-
-| 主界面 | 应用防护 | 网络监控 |
-|--------|---------|----------|
-| ![主页](screenshots/home.png) | ![防护](screenshots/protection.png) | ![网络](scr) |
-
-##  开发者指南
-
-### 关键API
-```kotlin
-// 初始化虚拟身份
-VirtualPassport(context).createIdentity(packageName)
-
-// 启动黑皇后防护
-startService(Intent(this, BlackQueenService::class.java))
-
-// 请求Shizuku权限
-Shizuku.requestPermission(REQUEST_CODE)
-```
-
-### 自定义配置
-在 `app/build.gradle` 中修改：
-```groovy
-android {
-    buildFeatures {
-        // 启用/禁用功能模块
-        virtualPassport true
-        blackQueenDefense true
-    }
-}
-```
 
 ##  开源许可
 ```text
