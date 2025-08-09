@@ -1,4 +1,4 @@
-# <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="48"> YIZI 安全防护系统
+YIZI 安全防护系统
 
 [![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)
 [![Min SDK](https://img.shields.io/badge/min%20SDK-24%2B(Android%207.0)-green.svg)](#)
