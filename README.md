@@ -4,7 +4,7 @@
 [![Min SDK](https://img.shields.io/badge/min%20SDK-24%2B(Android%207.0)-green.svg)](#)
 [![Kotlin](https://img.shields.io/badge/language-Kotlin%2BJava-purple.svg)](#)
 
-**下一代Android隐私防护解决方案** 
+**为每个人的隐私防护方案** 
 
 ## English Version
 
