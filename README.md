@@ -76,7 +76,9 @@ GNU General Public License v3.0
 
 ### 目前YIZI的状态
 正在开发中
-[YIZI详情](YIZI介绍.md)
+
+### 我想使用?不知道怎么使用。
+[YIZI使用方法](YIZI使用方法.md)
 
 ## 我们为什么那么做?
 
