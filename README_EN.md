@@ -4,7 +4,11 @@
 [![Min SDK](https://img.shields.io/badge/min%20SDK-24%2B(Android%207.0)-green.svg)](#)
 [![Kotlin](https://img.shields.io/badge/language-Kotlin%2BJava-purple.svg)](#)
 
-**Next-Generation Android Privacy Protection Solution** | [中文版](README.md)
+**Next-Generation Android Privacy Protection Solution** 
+
+## 中文版
+
+[中文版](README.md)
 
 ## Core Features
 
