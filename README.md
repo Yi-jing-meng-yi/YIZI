@@ -6,7 +6,7 @@
 
 **下一代Android隐私防护解决方案** 
 
-## 英文版
+## English Version
 
 [English Version](README_EN.md)
 
