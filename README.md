@@ -102,6 +102,6 @@ GNU General Public License v3.0
 >  技术交流群(QQ):1043544284 
 
 ### 想了解我的个人博客?
-<a href="http://yi-jing-meng-yi.github.io" style="display: inline-block; padding: 6px 16px; background-color: #007bff; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">访问我的博客</a>
+<a href="http://yi-jing-meng-yi.github.io" style="display: inline-block; padding: 6px 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">访问我的博客</a>
 ---
 **我们是YIZI，欢迎您的加入和构想提供**
